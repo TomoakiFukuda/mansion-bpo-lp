@@ -36,7 +36,7 @@ export function ContactForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    await fetch("https://formspree.io/f/PLACEHOLDER", {
+    await fetch("https://formspree.io/f/mojkrlpe", {
       method: "POST",
       body: data,
       headers: { Accept: "application/json" },
