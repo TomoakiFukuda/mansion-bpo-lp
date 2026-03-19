@@ -56,7 +56,9 @@ export function ImpactBar() {
           {/* Static item */}
           <div className="text-center p-6 md:p-8 border-b md:border-b-0 md:border-r border-white/20">
             <div className="text-[#C9A84C] font-bold text-3xl md:text-4xl mb-2">
-              管理業務主任者が
+              管理業務
+              <br />
+              主任者が
               <br />
               全件確認
             </div>
