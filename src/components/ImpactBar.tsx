@@ -55,8 +55,10 @@ export function ImpactBar() {
           />
           {/* Static item */}
           <div className="text-center p-6 md:p-8 border-b md:border-b-0 md:border-r border-white/20">
-            <div className="text-[#C9A84C] font-bold text-base md:text-lg mb-2">
-              管理業務主任者が全件確認
+            <div className="text-[#C9A84C] font-bold text-3xl md:text-4xl mb-2">
+              管理業務主任者が
+              <br />
+              全件確認
             </div>
             <div className="text-white text-sm mb-1">品質保証の根拠</div>
             <div className="text-gray-400 text-xs">合格率約12%の国家資格</div>
