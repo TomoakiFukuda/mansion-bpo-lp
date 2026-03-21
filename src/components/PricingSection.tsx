@@ -20,6 +20,7 @@ export function PricingSection() {
       items: ["議事録 月10件まで", "確認調整代行含む"],
       ctaClass: "bg-[#C9A84C] text-[#1B3A6B]",
       ctaText: "資料を受け取る",
+      ctaSize: "text-lg",
       featured: false,
     },
     {
@@ -35,6 +36,7 @@ export function PricingSection() {
       ],
       ctaClass: "bg-[#C9A84C] text-[#1B3A6B]",
       ctaText: "資料を受け取る",
+      ctaSize: "text-lg",
       featured: true,
     },
     {
@@ -45,6 +47,7 @@ export function PricingSection() {
       items: ["全サービスカスタム", "専任担当者付き", "SLA保証"],
       ctaClass: "bg-[#1B3A6B] text-white",
       ctaText: "まず話を聞いてみる",
+      ctaSize: "text-sm whitespace-nowrap",
       featured: false,
     },
   ];
@@ -163,7 +166,7 @@ export function PricingSection() {
               </ul>
               <a
                 href="mailto:tomoaki.fukuda@dxcj.co.jp?subject=【資料請求】マンション管理業務BPOについて"
-                className={`min-h-[44px] w-full flex items-center justify-center ${plan.ctaClass} font-bold text-lg py-4 px-10 rounded-full hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300`}
+                className={`min-h-[44px] w-full flex items-center justify-center ${plan.ctaClass} font-bold ${plan.ctaSize} py-4 px-10 rounded-full hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300`}
               >
                 {plan.ctaText}
               </a>
