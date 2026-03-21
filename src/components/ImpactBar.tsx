@@ -66,7 +66,7 @@ export function ImpactBar() {
             <div className="text-gray-400 text-xs">合格率約12%の国家資格</div>
           </div>
           <CountUpItem
-            target={29800}
+            target={76800}
             prefix="¥"
             suffix="〜"
             label="月額スタートプラン（税別）"
