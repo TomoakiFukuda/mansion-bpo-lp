@@ -14,7 +14,7 @@ export function PricingSection() {
   const plans = [
     {
       name: "スタートプラン",
-      price: "¥29,800",
+      price: "¥76,800",
       priceSub: "/月（税別）",
       range: "〜500戸",
       items: ["議事録 月10件まで", "確認調整代行含む"],
@@ -24,7 +24,7 @@ export function PricingSection() {
     },
     {
       name: "スタンダードプラン",
-      price: "¥59,800",
+      price: "¥380,000",
       priceSub: "/月（税別）",
       range: "500〜2,000戸",
       items: [
@@ -120,7 +120,7 @@ export function PricingSection() {
               <p>月給30万円の場合：時間単価約1,875円 → 40時間 × 1,875円 ＝ 月約75,000円</p>
               <p>月給35万円の場合：時間単価約2,188円 → 40時間 × 2,188円 ＝ 月約87,500円</p>
               <p className="mt-2">＋ 残業代（月20時間分）を加算すると…</p>
-              <p className="font-bold">いずれのケースでも月間コストは¥29,800を大きく上回ります</p>
+              <p className="font-bold">いずれのケースでも月間コストは¥76,800を大きく上回ります</p>
             </div>
           </div>
 
